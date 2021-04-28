@@ -14,3 +14,21 @@ An outline of steps taken to prepare the data to be visualized in the chart, suc
 If you're on this page, then you should have completed your exploration of local and global temperature trends. Congratulations! Before you submit your project, make sure to check the following points:
 
 Please submit your project as a PDF. Your report should include documentation of the steps in your analysis, a line chart depicting the local and global temperature data, and your observations regarding the trends. Don't forget to review the rubric! Reviewers will use the rubric to assess your work, so make sure it 'meets specifications' on all points before you submit. Once you've checked the above, click on the "Submit Project" button below to go to the project submission page. After you submit your project, it can take up to a week for it to be evaluated. Most of the time, it is much faster! In the meantime, you can feel free to continue to other parts of the program to continue your learning!
+
+
+# Extracted data from SQL workspace and downloaded the results to a CSV file.
+# Here are the data queries
+
+# This contains the average global temperatures by year.
+SELECT * 
+FROM global_data;
+
+# This contains the average temperatures for each city by year.
+SELECT * 
+FROM city_list
+WHERE city = 'San Jose';
+
+# This contains a list of cities and countries in the database. So extracted my neaest city 'San Jose' from the data.
+FROM city_data
+WHERE city = 'San Jose';
+
