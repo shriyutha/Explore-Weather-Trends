@@ -40,3 +40,17 @@ FROM city_data
 
 WHERE city = 'San Jose';
 
+
+# Observations:
+
+1. The global temperature has been in the range of 8 °C and 10 °C in the time period 1849 - 2013, Whereas San Jose City temperature has been hotter, in the range of 14 °C and 16 °C at the same time period.
+
+2. San Jose city recored its lowest average temperature of 13.2 °C in 1860 and 16.2 °C as highest avg temperature in year 2013.
+
+3. The lowest global average temperature of 7.5 °C was recorded in the year 1862 and the highest global average temperature of 9.7 °C was recorded in the year 2007. 
+
+4. The difference between global and San Jose average temperatures looks to be steadily decreasing (from 6.3 °C to 5.7 °C) from 1870 up till 1930 as San Jose was getting slightly colder and earth was slightly getting warmer.
+
+5. In the last 2 years (2011 - 2013) San Jose city temperature seem to be increasing at a much higher rate (0.85 °C per year), where as the global average temperature was almost constant.
+
+6. The overall trend looks like the world is getting hotter, throughout the time period
